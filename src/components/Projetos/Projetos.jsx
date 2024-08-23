@@ -25,6 +25,7 @@ function Formacao() {
           description={
             "Landing Page para academia, projeto em andamento, desenvolvido com React."
           }
+          />
       </div>
     </section>
   );
