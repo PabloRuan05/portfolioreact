@@ -1,18 +1,21 @@
 .projetos {
-  background-color: rgb(34, 34, 34);
-  padding: 10px 0px;
+  background-color: rgb(20, 20, 20);
+  padding: 1.5rem;
   h1 {
     font-size: 2rem;
     text-align: center;
     color: white;
   }
   .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 2rem;
+    padding: 0.8rem;
     display: flex;
     flex-direction: row;
-    gap: 2rem;
-    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1400px;
+    margin: 0 auto;
+    gap: 1rem;
+    & > * {
+      flex: 1 300px;
+    }
   }
 }

@@ -2,6 +2,7 @@ import styles from "./styles.module.scss";
 import CardProj from "../CardProj/CardProj";
 import image from "../../assets/img/bloodrinks.png";
 import gym from "../../assets/img/smartgym.png";
+import trip from "../../assets/img/blootrip.png";
 function Formacao() {
   return (
     <section id="Projetos" className={styles.projetos}>
@@ -21,6 +22,15 @@ function Formacao() {
           linkGit={"https://github.com/PabloRuan05/AcademiaSmartGym"}
           image={gym}
           title={"SmartGym"}
+          description={
+            "Landing Page para academia, projeto em andamento, desenvolvido com React."
+          }
+        />
+        <CardProj
+          link={"https://bloo-trip.vercel.app/"}
+          linkGit={"https://github.com/PabloRuan05/BlooTrip"}
+          image={trip}
+          title={"BlooTrip"}
           description={
             "Landing Page para academia, projeto em andamento, desenvolvido com React."
           }
