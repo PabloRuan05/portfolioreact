@@ -3,6 +3,7 @@ import CardProj from "../CardProj/CardProj";
 import image from "../../assets/img/bloodrinks.png";
 import gym from "../../assets/img/smartgym.png";
 import trip from "../../assets/img/blootrip.png";
+
 function Formacao() {
   return (
     <section id="Projetos" className={styles.projetos}>
