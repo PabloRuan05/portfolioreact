@@ -33,7 +33,7 @@ function Formacao() {
           image={trip}
           title={"BlooTrip"}
           description={
-            "Landing Page para academia, projeto em andamento, desenvolvido com React."
+            "Site de dicas de viagem feito em React, cards responsivos, efeito de css com javascript."
           }
         />
       </div>
