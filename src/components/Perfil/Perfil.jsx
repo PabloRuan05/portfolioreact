@@ -38,7 +38,7 @@ function Perfil() {
             </a>
             <a
               target="blank"
-              href="https://drive.google.com/file/d/1QZy6dkqqdlpLEx2dQKJt9lZyO5C-G-QY/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1BtEE6821IAS3YuDANAxESjv21fWJON_f/view?usp=sharing"
             >
               <div>
                 <FaFilePdf />
