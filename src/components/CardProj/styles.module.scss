@@ -22,17 +22,48 @@
     padding: 1rem;
     text-align: center;
   }
-  a {
-    button {
-      background-color: rgb(42, 81, 255);
-      padding: 8px;
-      height: 2rem;
-      font-weight: 700;
-      font-size: 1rem;
-      margin-bottom: 1rem;
-      border: none;
-      border-radius: 15px;
-      color: white;
+  div.wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    a.link {
+      i {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        color: white;
+        font-size: 2rem;
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+      }
+    }
+    a.link:hover {
+      i {
+        color: rgb(0, 140, 255);
+      }
+    }
+    a.git {
+      i {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        color: white;
+        font-size: 2rem;
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+      }
+    }
+    a.git:hover {
+      i {
+        color: rgb(0, 140, 255);
+      }
     }
   }
 }
