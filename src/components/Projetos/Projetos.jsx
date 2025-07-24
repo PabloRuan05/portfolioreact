@@ -3,6 +3,8 @@ import CardProj from "../CardProj/CardProj";
 import image from "../../assets/img/bloodrinks.png";
 import gym from "../../assets/img/smartgym.png";
 import trip from "../../assets/img/blootrip.png";
+import fit from "../../assets/img/bloofit.png";
+import academia from "../../assets/img/academia.png";
 
 function Formacao() {
   return (
@@ -34,6 +36,22 @@ function Formacao() {
           title={"BlooTrip"}
           description={
             "Site de dicas de viagem feito em React, cards responsivos, efeito de css com javascript."
+          }
+        />
+        <CardProj
+          link={"https://bloofit.vercel.app/"}
+          linkGit={"https://github.com/PabloRuan05/Blooafid"}
+          image={fit}
+          title={"BlooFit"}
+          description={"Site para agrupar links de afiliado."}
+        />
+        <CardProj
+          link={"https://academia-ten-black.vercel.app/"}
+          linkGit={"https://github.com/PabloRuan05/academia"}
+          image={academia}
+          title={"Academia"}
+          description={
+            "V2 Landing Page para academia, projeto em andamento, desenvolvido com React."
           }
         />
       </div>
