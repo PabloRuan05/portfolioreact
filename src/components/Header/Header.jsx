@@ -7,6 +7,9 @@ function Header() {
         <a href="index.html">Pablo Muniz</a>
         <ul id="linknav">
           <li>
+            <a href="#Sobre">Sobre</a>
+          </li>
+          <li>
             <a href="#Projetos">Projetos</a>
           </li>
           <li>

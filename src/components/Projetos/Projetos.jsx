@@ -1,10 +1,10 @@
 import styles from "./styles.module.scss";
 import CardProj from "../CardProj/CardProj";
 import image from "../../assets/img/bloodrinks.png";
-import gym from "../../assets/img/smartgym.png";
 import trip from "../../assets/img/blootrip.png";
 import fit from "../../assets/img/bloofit.png";
 import academia from "../../assets/img/academia.png";
+import zapdelivery from "../../assets/img/zapdelivery.png";
 
 function Formacao() {
   return (
@@ -20,15 +20,7 @@ function Formacao() {
             "Projeto inspirado no Zé Delivery, desenvolvido utilizando o Framework Angular junto com HTML e CSS. "
           }
         />
-        <CardProj
-          link={"https://smartgym-eosin.vercel.app"}
-          linkGit={"https://github.com/PabloRuan05/AcademiaSmartGym"}
-          image={gym}
-          title={"SmartGym"}
-          description={
-            "Landing Page para academia, projeto em andamento, desenvolvido com React."
-          }
-        />
+
         <CardProj
           link={"https://bloo-trip.vercel.app/"}
           linkGit={"https://github.com/PabloRuan05/BlooTrip"}
@@ -52,6 +44,15 @@ function Formacao() {
           title={"Academia"}
           description={
             "V2 Landing Page para academia, projeto em andamento, desenvolvido com React."
+          }
+        />
+        <CardProj
+          link={"https://zapdelivery.vercel.app/"}
+          linkGit={"https://github.com/PabloRuan05/zapdelivery"}
+          image={zapdelivery}
+          title={"ZapDelivery"}
+          description={
+            "Site para facilitar a comunicação entre restaurantes e seus clientes através do Whatsapp."
           }
         />
       </div>

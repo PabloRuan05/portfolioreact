@@ -4,8 +4,10 @@
   align-items: center;
   width: 100%;
   background-color: rgb(255, 255, 255);
+  // border: solid 1px;
   border-radius: 10px;
   gap: 0.5rem;
+  box-shadow: 0 0 15px rgba(31, 31, 31, 0.6);
 
   img {
     border-top-left-radius: 10px;
@@ -19,6 +21,7 @@
   }
 
   p {
+    font-weight: 600;
     padding: 1rem;
     text-align: center;
   }
@@ -66,4 +69,8 @@
       }
     }
   }
+}
+.cardform:hover {
+  transition: 500ms;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
 }
